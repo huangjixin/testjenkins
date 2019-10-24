@@ -29,10 +29,13 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <mainClass>com.ccb.test.Test</mainClass>
+                </configuration>
+                <!--<configuration>
                     <skip>
                         true
                     </skip>
-                </configuration>
+                </configuration>-->
             </plugin>
         </plugins>
     </build>
